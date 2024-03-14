@@ -1,0 +1,17 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Width="300" Height="550" Padding="15"
+        x:Class="player.Playlist"
+        Title="Playlist"
+        Name="playlist" >
+    <StackPanel>
+      <Grid>
+      <TextBlock Margin="15">Playlista</TextBlock>
+          <ListBox Name="muzyka" Margin="30">
+            
+          </ListBox>
+    	</Grid>
+	</StackPanel>
+</Window>
